@@ -1,11 +1,11 @@
 {
-  "name": "Alphabot-Md",
+  "name": "BebekBot",
   "version": "17.0.9",
-  "description": "Alphabot Md, Only update in YouTube ZEEONE OFC",
+  "description": "Bot ini di buat oleh farhan, TELEGRAM @ahquots",
   "main": "zeeone.js",
   "license": "MIT",
   "scripts": {
-    "start": "node zeeone.js"
+    "start": "npm i -g pm2 && pm2 start zeeone.js && pm2 save && pm2 logs"
    },
   "keywords": [
     "whatsapp",
